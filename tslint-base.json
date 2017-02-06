@@ -43,7 +43,7 @@
     "no-floating-promises": [
       true,
       "JQueryPromise",
-      "BluebirdPromise"
+      "Bluebird"
     ],
     "no-for-in-array": true,
     "no-inferrable-types": false,
