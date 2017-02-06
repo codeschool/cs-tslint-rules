@@ -20,7 +20,7 @@ npm i --save-dev typescript tslint
 Install the cs-tslint-rules module.
 
 ```
-npm i --save-dev git+https://github.com/codeschool/cs-tslint-rules.git
+npm i --save-dev cs-tslint-rules
 ```
 
 Create a `tslint.json` file in the root folder of your project and add
@@ -46,7 +46,7 @@ npm i --save-dev typescript tslint codelyzer
 Install the cs-tslint-rules module.
 
 ```
-npm i --save-dev git+https://github.com/codeschool/cs-tslint-rules.git
+npm i --save-dev cs-tslint-rules
 ```
 
 Create a `tslint.json` file in the root folder of your project and add
