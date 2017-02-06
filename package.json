@@ -1,0 +1,13 @@
+{
+  "name": "cs-tslint-rules",
+  "version": "1.0.0",
+  "description": "The TSLint rules for Code School's TypeScript conventions.",
+  "main": "tslint-base.json",
+  "keywords": [
+    "conventions",
+    "typescript",
+    "tslint"
+  ],
+  "author": "Nick Wronski <nick@codeschool.com> (https://github.com/nwronski)",
+  "license": "ISC"
+}
