@@ -8,6 +8,10 @@
     "typescript",
     "tslint"
   ],
+  "repository": "git@github.com:codeschool/cs-tslint-rules.git",
+  "bugs": {
+    "url": "https://github.com/codeschool/cs-tslint-rules/issues"
+  },
   "author": "Nick Wronski <nick@codeschool.com> (https://github.com/nwronski)",
   "license": "ISC"
 }
