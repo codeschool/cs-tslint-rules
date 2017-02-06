@@ -85,3 +85,24 @@ is run first.
 ```
 npm run lint
 ```
+
+### Recommended TypeScript compiler options
+
+The TSLint configuration in this module pair well with the following
+`compilerOptions` added to your `tsconfig.json` as an extra layer of
+best practice enforcement:
+
+``` json
+{
+  "compilerOptions": {
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noEmitOnError": true
+  }
+}
+```
