@@ -46,7 +46,7 @@
       "Bluebird"
     ],
     "no-for-in-array": true,
-    "no-inferrable-types": false,
+    "no-inferrable-types": [true, "ignore-params"],
     "no-magic-numbers": false,
     "no-mergeable-namespace": true,
     "no-misused-new": true,
@@ -59,6 +59,14 @@
     "no-unnecessary-initializer": true,
     "no-void-expression": true,
     "object-literal-sort-keys": false,
+    "one-line": [
+      true,
+      "check-catch",
+      "check-finally",
+      "check-else",
+      "check-open-brace",
+      "check-whitespace"
+    ],
     "ordered-imports": [
       true,
       {
@@ -83,7 +91,7 @@
     "trailing-comma": [
       true,
       {
-        "multiline": "never",
+        "multiline": "always",
         "singleline": "never"
       }
     ],
@@ -92,6 +100,16 @@
       "ban-keywords",
       "check-format",
       "allow-leading-underscore"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-preblock"
     ]
   }
 }
