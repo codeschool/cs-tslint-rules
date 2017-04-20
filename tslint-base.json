@@ -28,7 +28,6 @@
       ["property", "private",   "camel", "require-leading-underscore"],
       ["property", "protected", "camel", "allow-leading-underscore"],
       ["variable", "local",     "camel"],
-      ["variable", "const",     "camel"],
       ["variable",              "camel"],
       ["method", "private",     "camel", "require-leading-underscore"],
       ["method", "protected",   "camel", "allow-leading-underscore"],
