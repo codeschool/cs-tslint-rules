@@ -29,8 +29,7 @@
       ["property", "protected", "camel", "allow-leading-underscore"],
       ["method", "private",     "camel", "require-leading-underscore"],
       ["method", "protected",   "camel", "allow-leading-underscore"],
-      ["function",              "camel"],
-      ["default",               "camel"]
+      ["function",              "camel"]
     ],
     "import-blacklist": [
       true,
