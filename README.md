@@ -20,7 +20,7 @@ npm i --save-dev typescript tslint
 Install the cs-tslint-rules module.
 
 ```
-npm i --save-dev cs-tslint-rules
+npm i --save-dev cs-tslint-rules vrsource-tslint-rules
 ```
 
 Create a `tslint.json` file in the root folder of your project and add
@@ -28,8 +28,8 @@ the following:
 
 ``` json
 {
-  "exclude": [
-    "node_modules/"
+  "rulesDirectory": [
+    "node_modules/vrsource-tslint-rules/rules"
   ],
   "extends": "cs-tslint-rules/tslint-base"
 }
@@ -54,11 +54,9 @@ the following:
 
 ``` json
 {
-  "exclude": [
-    "node_modules/"
-  ],
   "rulesDirectory": [
-    "node_modules/codelyzer"
+    "node_modules/codelyzer",
+    "node_modules/vrsource-tslint-rules/rules"
   ],
   "extends": "cs-tslint-rules/tslint-ng2"
 }
@@ -106,3 +104,5 @@ best practice enforcement:
   }
 }
 ```
+
+If you are feeling extra bold, try the `"strict": true` option as well.
