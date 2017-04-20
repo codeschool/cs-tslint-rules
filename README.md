@@ -70,7 +70,7 @@ set the correct pattern for your source files (the example uses `src/**/*.ts`):
 ``` json
 {
   "scripts": {
-    "lint": "./node_modules/.bin/tslint --type-check --project tsconfig.json --config tslint.json src/**/*.ts"
+    "lint": "./node_modules/.bin/tslint --type-check --fix --project tsconfig.json --config tslint.json src/**/*.ts"
   }
 }
 ```

@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v3.1.0] - 2017-04-20
+### Changed
+- Removed `conditional-expression-parens` rule
+- Removed `ext-variable-name` rule for `"variable", "const"`
+
+### Fixed
+- Fixed version of `tslint` that is required by project `^4.5.1`
+
 ## [v3.0.1] - 2017-04-20
 ### Fixed
 - Update `README.md` with instructions for including the new `vrsource-tslint-rules` in a project
@@ -38,7 +46,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.1...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.0...HEAD
+[v3.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.1...v3.1.0
 [v3.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v2.0.0...v3.0.0
 [v2.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v1.1.1...v2.0.0
