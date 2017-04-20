@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v3.1.2] - 2017-04-20
+### Changed
+- Removed `ext-variable-name` rule for `"default"`
+
 ## [v3.1.1] - 2017-04-20
 ### Changed
 - Removed `ext-variable-name` rule for `"variable"`
@@ -53,7 +57,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.1...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.2...HEAD
+[v3.1.2]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.1...v3.1.2
 [v3.1.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.0...v3.1.1
 [v3.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.1...v3.1.0
 [v3.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.0...v3.0.1
