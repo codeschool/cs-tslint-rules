@@ -15,14 +15,39 @@
         "ignore-words": [ "TODO" ]
       }
     ],
+    "conditional-expression-parens": true,
     "cyclomatic-complexity": [
       true,
       15
+    ],
+    "dot-notation": true,
+    "ext-variable-name": [
+      true,
+      ["class",                 "pascal"],
+      ["interface",             "pascal", {"regex": "^I.*$"}],
+      ["parameter",             "camel"],
+      ["property", "private",   "camel", "require-leading-underscore"],
+      ["property", "protected", "camel", "allow-leading-underscore"],
+      ["variable", "local",     "camel"],
+      ["variable", "const",     "camel"],
+      ["variable",              "camel"],
+      ["method", "private",     "camel", "require-leading-underscore"],
+      ["method", "protected",   "camel", "allow-leading-underscore"],
+      ["function",              "camel"],
+      ["default",               "camel"]
     ],
     "import-blacklist": [
       true,
       "rxjs",
       "lodash"
+    ],
+    "literal-spacing": [
+      true,
+      {
+        "array": ["always"],
+        "object": ["always"],
+        "import": ["always"]
+      }
     ],
     "max-file-line-count": [
       true,
@@ -39,7 +64,12 @@
         "order": "instance-sandwich"
       }
     ],
+    "multiline-arrow": [
+      true,
+      "require-parens"
+    ],
     "no-any": true,
+    "no-duplicate-imports": true,
     "no-floating-promises": [
       true,
       "JQueryPromise",
@@ -77,6 +107,12 @@
     "prefer-function-over-method": [
       true,
       "allow-public"
+    ],
+    "prefer-literal": [
+      true,
+      "object",
+      "function",
+      "array"
     ],
     "prefer-method-signature": true,
     "promise-function-async": true,
