@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v3.1.1] - 2017-04-20
+### Changed
+- Removed `ext-variable-name` rule for `"variable"`
+
+### Fixed
+- Removed `tslint-eslint-rules` dependency since that isn't being used yet
+
 ## [v3.1.0] - 2017-04-20
 ### Changed
 - Removed `conditional-expression-parens` rule
@@ -46,7 +53,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.1...HEAD
+[v3.1.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.0...v3.1.1
 [v3.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.1...v3.1.0
 [v3.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v2.0.0...v3.0.0
