@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v3.0.1] - 2017-04-20
+### Fixed
+- Update `README.md` with instructions for including the new `vrsource-tslint-rules` in a project
+
 ## [v3.0.0] - 2017-04-20
 ### Added
 - New dependency on rules from `vrsource-tslint-rules`
@@ -34,7 +38,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.1...HEAD
+[v3.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v2.0.0...v3.0.0
 [v2.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v1.1.1...v2.0.0
 [v1.1.1]: https://github.com/codeschool/cs-tslint-rules/compare/v1.1.0...v1.1.1
