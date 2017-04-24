@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v4.1.0] - 2017-04-24
+### Fixed
+- Disable no-inferrable-types since the automatic --fix for this rule is broken
+
+### Changed
+- Update tslint and rules to 5.1.x.
+
 ## [v4.0.0] - 2017-04-24
 ### Added
 - Add `tslint-eslint-rules` dependency to allow for more eslint rules to be used
@@ -62,7 +69,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v4.0.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v4.1.0...HEAD
+[v4.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.0.0...v4.1.0
 [v4.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.2...v4.0.0
 [v3.1.2]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.1...v3.1.2
 [v3.1.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.0...v3.1.1
