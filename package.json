@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "tslint": "^4.5.1",
+    "tslint-eslint-rules": "^4.0.0",
     "vrsource-tslint-rules": "^4.0.1"
   }
 }

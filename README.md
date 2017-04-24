@@ -20,7 +20,7 @@ npm i --save-dev typescript tslint
 Install the cs-tslint-rules module.
 
 ```
-npm i --save-dev cs-tslint-rules vrsource-tslint-rules
+npm i --save-dev vrsource-tslint-rules tslint-eslint-rules cs-tslint-rules
 ```
 
 Create a `tslint.json` file in the root folder of your project and add
@@ -29,6 +29,7 @@ the following:
 ``` json
 {
   "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules",
     "node_modules/vrsource-tslint-rules/rules"
   ],
   "extends": "cs-tslint-rules/tslint-base"
@@ -56,6 +57,7 @@ the following:
 {
   "rulesDirectory": [
     "node_modules/codelyzer",
+    "node_modules/tslint-eslint-rules/dist/rules",
     "node_modules/vrsource-tslint-rules/rules"
   ],
   "extends": "cs-tslint-rules/tslint-ng2"
