@@ -77,7 +77,7 @@
       "Bluebird"
     ],
     "no-for-in-array": true,
-    "no-inferrable-types": [true, "ignore-params"],
+    "no-inferrable-types": false,
     "no-inner-declarations": true,
     "no-invalid-regexp": true,
     "no-irregular-whitespace": true,
