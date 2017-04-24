@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v4.0.0] - 2017-04-24
+### Added
+- Add `tslint-eslint-rules` dependency to allow for more eslint rules to be used
+- Added the following rules from `tslint-eslint-rules`: `no-constant-condition`, `no-duplicate-case`, `no-empty-character-class`, `no-ex-assign`, `no-extra-boolean-cast`, `no-extra-semi`, `no-inner-declarations`, `no-invalid-regexp`, `no-irregular-whitespace`, `no-regex-spaces`, `no-sparse-arrays`, `no-unexpected-multiline`
+
 ## [v3.1.2] - 2017-04-20
 ### Changed
 - Removed `ext-variable-name` rule for `"default"`
@@ -57,7 +62,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.2...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v4.0.0...HEAD
+[v4.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.2...v4.0.0
 [v3.1.2]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.1...v3.1.2
 [v3.1.1]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.0...v3.1.1
 [v3.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.0.1...v3.1.0
