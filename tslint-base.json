@@ -94,7 +94,10 @@
     "no-unbound-method": true,
     "no-unexpected-multiline": true,
     "no-unnecessary-initializer": true,
-    "no-void-expression": true,
+    "no-void-expression": [
+      true,
+      "ignore-arrow-function-shorthand"
+    ],
     "object-literal-sort-keys": false,
     "one-line": [
       true,

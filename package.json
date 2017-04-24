@@ -14,8 +14,11 @@
   },
   "author": "Nick Wronski <nick@codeschool.com> (https://github.com/nwronski)",
   "license": "ISC",
+  "peerDependencies": {
+    "tslint": "^5.1.0"
+  },
   "dependencies": {
-    "tslint": "^4.5.1",
+    "codelyzer": "^3.0.0",
     "tslint-eslint-rules": "^4.0.0",
     "vrsource-tslint-rules": "^4.0.1"
   }
