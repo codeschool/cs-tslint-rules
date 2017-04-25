@@ -39,6 +39,10 @@
       ["method", "protected",   "camel", "allow-leading-underscore"],
       ["function",              "camel"]
     ],
+    "handle-callback-err": [
+      true,
+      "^(err|error|e)$"
+    ],
     "import-blacklist": [
       true,
       "rxjs",
