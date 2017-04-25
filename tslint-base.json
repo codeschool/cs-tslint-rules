@@ -1,11 +1,19 @@
 {
   "extends": "tslint:latest",
   "rules": {
+    "array-bracket-spacing": [
+      true,
+      "always"
+    ],
     "arrow-return-shorthand": true,
     "await-promise": true,
     "ban": [
       true,
       [ "window", "isNaN", "You can use Number.isNan() instead of isNaN()" ]
+    ],
+    "block-spacing": [
+      true,
+      "always"
     ],
     "comment-format": [
       true,
@@ -35,14 +43,6 @@
       true,
       "rxjs",
       "lodash"
-    ],
-    "literal-spacing": [
-      true,
-      {
-        "array": ["always"],
-        "object": ["always"],
-        "import": ["always"]
-      }
     ],
     "max-file-line-count": [
       true,
@@ -97,6 +97,10 @@
     "no-void-expression": [
       true,
       "ignore-arrow-function-shorthand"
+    ],
+    "object-curly-spacing": [
+      true,
+      "always"
     ],
     "object-literal-sort-keys": false,
     "one-line": [
