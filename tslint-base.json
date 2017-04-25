@@ -30,14 +30,16 @@
     "dot-notation": true,
     "ext-variable-name": [
       true,
-      ["class",                 "pascal"],
-      ["interface",             "pascal", {"regex": "^I.*$"}],
-      ["parameter",             "camel"],
-      ["property", "private",   "camel", "require-leading-underscore"],
-      ["property", "protected", "camel", "allow-leading-underscore"],
-      ["method", "private",     "camel", "require-leading-underscore"],
-      ["method", "protected",   "camel", "allow-leading-underscore"],
-      ["function",              "camel"]
+      ["class",                       "pascal"],
+      ["interface",                   "pascal",   {"regex": "^I.*$"}],
+      ["parameter",                   "camel"],
+      ["property",    "public",       "camel"],
+      ["property",    "private",      "camel",    "require-leading-underscore"],
+      ["property",    "protected",    "camel",    "allow-leading-underscore"],
+      ["function",                    "camel",    "allow-leading-underscore"],
+      ["method",      "public",       "camel"],
+      ["method",      "private",      "camel",    "require-leading-underscore"],
+      ["method",      "protected",    "camel",    "allow-leading-underscore"]
     ],
     "handle-callback-err": [
       true,
