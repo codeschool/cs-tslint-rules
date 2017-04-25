@@ -2,6 +2,8 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
+### Changed
+- Removed `multiline-arrow` rule
 
 ## [v5.0.0] - 2017-04-25
 ### Added

@@ -65,10 +65,6 @@
         "order": "instance-sandwich"
       }
     ],
-    "multiline-arrow": [
-      true,
-      "require-parens"
-    ],
     "no-any": true,
     "no-constant-condition": true,
     "no-duplicate-case": true,
