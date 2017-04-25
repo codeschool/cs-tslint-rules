@@ -20,6 +20,6 @@
   "dependencies": {
     "codelyzer": "^3.0.0",
     "tslint-eslint-rules": "^4.0.0",
-    "vrsource-tslint-rules": "^4.0.1"
+    "vrsource-tslint-rules": "^5.1.0"
   }
 }
