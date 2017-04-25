@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v5.0.0] - 2017-04-25
+### Added
+- Added `array-bracket-spacing`, `object-curly-spacing`, and `block-spacing` rules as `[true, "always"]`
+- Added `handle-callback-err` rule
+
+### Changed
+- Upgraded `vrsource-tslint-rules` to `5.1.0`
+- Removed `literal-spacing` rule to use the `tslint-eslint-rules` versions that have `--fix` support
+- Changed `ext-variable-name` to allow functions with leading underscores
+- Changed `ext-variable-name` to enforce camel case on public methods and properties
+
 ## [v4.1.0] - 2017-04-24
 ### Fixed
 - Disable no-inferrable-types since the automatic --fix for this rule is broken
@@ -69,7 +80,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v4.1.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v5.0.0...HEAD
+[v5.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.1.0...v5.0.0
 [v4.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.0.0...v4.1.0
 [v4.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.2...v4.0.0
 [v3.1.2]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.1...v3.1.2
