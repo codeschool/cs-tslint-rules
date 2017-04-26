@@ -1,10 +1,7 @@
 {
   "extends": "tslint:latest",
   "rules": {
-    "array-bracket-spacing": [
-      true,
-      "always"
-    ],
+    "array-bracket-spacing": false,
     "arrow-return-shorthand": true,
     "await-promise": true,
     "ban": [
@@ -100,10 +97,7 @@
       true,
       "ignore-arrow-function-shorthand"
     ],
-    "object-curly-spacing": [
-      true,
-      "always"
-    ],
+    "object-curly-spacing": false,
     "object-literal-sort-keys": false,
     "one-line": [
       true,
@@ -140,13 +134,7 @@
     "restrict-plus-operands": true,
     "strict-boolean-expressions": true,
     "strict-type-predicates": true,
-    "trailing-comma": [
-      true,
-      {
-        "multiline": "always",
-        "singleline": "never"
-      }
-    ],
+    "trailing-comma": false,
     "variable-name": [
       true,
       "ban-keywords",
