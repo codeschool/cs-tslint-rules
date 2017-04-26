@@ -1,6 +1,6 @@
 {
   "name": "cs-tslint-rules",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "description": "The TSLint rules for Code School's TypeScript conventions.",
   "main": "tslint-base.json",
   "keywords": [

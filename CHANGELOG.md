@@ -3,7 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
-## [v5.1.0] - 2017-04-25
+## [v5.2.0] - 2017-04-26
+### Changed
+- Removed options that conflict with `Google` _style_ of `clang-format` so TSLint and clang-format can work in tandem: `comment-format` `"check-uppercase"` option and `whitespace` `"check-separator"` option
+
+## [v5.1.0] - 2017-04-26
 ### Changed
 - Removed suspect/broken rules on TSLint 5.x (the `--fix` is producing invalid code rewrites): `trailing-comma`, `array-bracket-spacing`, `object-curly-spacing`
 - Removed rules on TSLint 5.x that are generating warnings: `multiline-arrow` (`Cannot read property 'getStart' of undefined`)
@@ -88,7 +92,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v5.1.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v5.2.0...HEAD
+[v5.2.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.1.0...v5.2.0
 [v5.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.0.0...v5.1.0
 [v5.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.1.0...v5.0.0
 [v4.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.0.0...v4.1.0
