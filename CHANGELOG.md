@@ -2,8 +2,14 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
+
+## [v5.1.0] - 2017-04-25
 ### Changed
-- Removed `multiline-arrow` rule
+- Removed suspect/broken rules on TSLint 5.x (the `--fix` is producing invalid code rewrites): `trailing-comma`, `array-bracket-spacing`, `object-curly-spacing`
+- Removed rules on TSLint 5.x that are generating warnings: `multiline-arrow` (`Cannot read property 'getStart' of undefined`)
+
+### Fixed
+- Make `codelyzer` a peer dependency to prevent `npm install` warning for non-Angular projects
 
 ## [v5.0.0] - 2017-04-25
 ### Added
@@ -82,7 +88,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v5.0.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v5.1.0...HEAD
+[v5.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.0.0...v5.1.0
 [v5.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.1.0...v5.0.0
 [v4.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.0.0...v4.1.0
 [v4.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v3.1.2...v4.0.0
