@@ -82,7 +82,7 @@
     "no-inferrable-types": false,
     "no-inner-declarations": true,
     "no-invalid-regexp": true,
-    "no-irregular-whitespace": true,
+    "ter-no-irregular-whitespace": true,
     "no-regex-spaces": true,
     "no-magic-numbers": false,
     "no-mergeable-namespace": true,
@@ -91,7 +91,7 @@
       true,
       "allow-declarations"
     ],
-    "no-sparse-arrays": true,
+    "ter-no-sparse-arrays": true,
     "no-switch-case-fall-through": true,
     "no-unbound-method": true,
     "no-unexpected-multiline": true,
