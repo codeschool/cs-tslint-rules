@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v6.0.1] - 2017-06-01
+### Fixed
+- The `no-irregular-whitespace` and `no-sparse-arrays` all have been renamed to be prefixed with `ter-` in the latest `tslint-eslint-rules`
+
 ## [v6.0.0] - 2017-06-01
 ### Added
 - `array-bracket-spacing` and `object-curly-spacing` rules as `[true, "always"]`
@@ -97,7 +101,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.1...HEAD
+[v6.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.0...v6.0.1
 [v6.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.2.0...v6.0.0
 [v5.2.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.1.0...v5.2.0
 [v5.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.0.0...v5.1.0
