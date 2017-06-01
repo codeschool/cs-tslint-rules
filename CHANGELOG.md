@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v6.0.0] - 2017-06-01
+### Added
+- `array-bracket-spacing` and `object-curly-spacing` rules as `[true, "always"]`
+- `trailing-comma` is now set to `"always"` for `multiline` and `"never"` for `singleline`
+
 ## [v5.2.0] - 2017-04-26
 ### Changed
 - Removed options that conflict with `Google` _style_ of `clang-format` so TSLint and clang-format can work in tandem: `comment-format` `"check-uppercase"` option and `whitespace` `"check-separator"` option
@@ -92,7 +97,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v5.2.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.0...HEAD
+[v6.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.2.0...v6.0.0
 [v5.2.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.1.0...v5.2.0
 [v5.1.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.0.0...v5.1.0
 [v5.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v4.1.0...v5.0.0
