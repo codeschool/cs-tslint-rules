@@ -1,7 +1,10 @@
 {
   "extends": "tslint:latest",
   "rules": {
-    "array-bracket-spacing": false,
+    "array-bracket-spacing": [
+      true,
+      "always"
+    ],
     "arrow-return-shorthand": true,
     "await-promise": true,
     "ban": [
@@ -14,6 +17,7 @@
     ],
     "comment-format": [
       true,
+      "check-uppercase",
       "check-space",
       {
         "ignore-words": [ "TODO" ]
@@ -96,7 +100,10 @@
       true,
       "ignore-arrow-function-shorthand"
     ],
-    "object-curly-spacing": false,
+    "object-curly-spacing": [
+      true,
+      "always"
+    ],
     "object-literal-sort-keys": false,
     "one-line": [
       true,
@@ -133,7 +140,13 @@
     "restrict-plus-operands": true,
     "strict-boolean-expressions": true,
     "strict-type-predicates": true,
-    "trailing-comma": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
     "variable-name": [
       true,
       "ban-keywords",
@@ -146,6 +159,7 @@
       "check-decl",
       "check-operator",
       "check-module",
+      "check-separator",
       "check-type",
       "check-preblock"
     ]
