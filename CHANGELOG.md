@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v7.0.0] - 2017-06-21
+### Changed
+- Added `allow-pascal-case` option to `variable-name` rule to allow variable names such as `PascalCase` because they often appear in situations where you are defining classes or models via `const` or `let` (e.g., [graphql-tools makeExecutableSchema()](http://dev.apollodata.com/tools/graphql-tools/generate-schema.html#modularizing)
+- Removed `{"regex": "^I.*$"}` from `interface` section of `ext-variable-name` rule since interfaces in external typings almost never follow this convention
+
+### Fixed
+- Remove codelyzer peerDependency as it was causing warnings when installing this 
+  module in non-Angular projects
+
 ## [v6.0.1] - 2017-06-01
 ### Fixed
 - The `no-irregular-whitespace` and `no-sparse-arrays` all have been renamed to be prefixed with `ter-` in the latest `tslint-eslint-rules`
@@ -101,7 +110,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.1...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v7.0.0...HEAD
+[v7.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.1...v7.0.0
 [v6.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.0...v6.0.1
 [v6.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.2.0...v6.0.0
 [v5.2.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.1.0...v5.2.0
