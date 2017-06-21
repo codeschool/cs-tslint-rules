@@ -20,7 +20,7 @@ npm i --save-dev typescript tslint
 Install the cs-tslint-rules module.
 
 ```
-npm i --save-dev vrsource-tslint-rules tslint-eslint-rules cs-tslint-rules
+npm i --save-dev cs-tslint-rules
 ```
 
 Create a `tslint.json` file in the root folder of your project and add
@@ -72,7 +72,7 @@ set the correct pattern for your source files (the example uses `src/**/*.ts`):
 ``` json
 {
   "scripts": {
-    "lint": "./node_modules/.bin/tslint --type-check --fix --project tsconfig.json --config tslint.json src/**/*.ts"
+    "lint": "tslint --type-check --fix --project tsconfig.json --config tslint.json src/**/*.ts"
   }
 }
 ```
@@ -95,6 +95,7 @@ best practice enforcement:
 ``` json
 {
   "compilerOptions": {
+    "strict": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "allowUnreachableCode": false,
@@ -102,9 +103,8 @@ best practice enforcement:
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
+    "strictNullChecks": true,
     "noEmitOnError": true
   }
 }
 ```
-
-If you are feeling extra bold, try the `"strict": true` option as well.
