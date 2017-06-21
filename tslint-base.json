@@ -31,7 +31,7 @@
     "ext-variable-name": [
       true,
       ["class",                       "pascal"],
-      ["interface",                   "pascal",   {"regex": "^I.*$"}],
+      ["interface",                   "pascal"],
       ["parameter",                   "camel"],
       ["property",    "public",       "camel"],
       ["property",    "private",      "camel",    "require-leading-underscore"],
