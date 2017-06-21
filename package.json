@@ -15,7 +15,6 @@
   "author": "Nick Wronski <nick@codeschool.com> (https://github.com/nwronski)",
   "license": "ISC",
   "peerDependencies": {
-    "codelyzer": "^3.0.0",
     "tslint": "^5.4.1"
   },
   "dependencies": {
