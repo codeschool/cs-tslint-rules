@@ -3,6 +3,31 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v8.0.0] - 2017-07-23
+### Added
+- Added `align` rule as `[true, "arguments", "elements", "members", "parameters", "statements"]
+- Added `prefer-object-spread` as `true`
+- Added `binary-expression-operand-order` rule as `true`
+- Added `no-duplicate-variable` rule as `[true, "check-parameters"]`
+- Added `no-object-literal-type-assertion` rule as `true`
+- Added `number-literal-format` rule as `true`
+- Added `no-internal-module` rule as `true`
+- Added `interface-over-type-literal` rule as `true`
+- Added `no-string-literal` rule as `true`
+- Added `no-invalid-template-strings` rule as `true`
+- Added `ter-func-call-spacing` rule as `[true, "never"]`
+### Changed
+- Upgraded `package.json` dependencies including bumping to TSLint v5.5.0
+- Removed `no-floating-promises` rule
+- Removed `strict-type-predicates` rule and removed suggestion for enabling `strictNullChecks` option for `tsconfig.json` `compilerOptions` section
+- Changed `strict-boolean-expressions` rule from `true` to `[ true, "allow-boolean-or-undefined" ]`
+- Changed `ext-variable-name` item `parameter` to `["parameter", "camel", "allow-leading-underscore"]`
+- Changed `no-unused-variable` from `true` to `[true, {"ignore-pattern": "^_"}]`
+- Changed `no-unbound-method` from `true` to `[true, "ignore-static"]`
+- Changed `quotemark` by adding `"avoid-template"` option
+- Changed `indent` by setting it to `2` spaces
+- Changed `trailing-comma` for `multiline` to `{"objects": "always", "arrays": "always", "functions": "ignore", "typeLiterals": "ignore"}`
+
 ## [v7.0.0] - 2017-06-21
 ### Changed
 - Added `allow-pascal-case` option to `variable-name` rule to allow variable names such as `PascalCase` because they often appear in situations where you are defining classes or models via `const` or `let` (e.g., [graphql-tools makeExecutableSchema()](http://dev.apollodata.com/tools/graphql-tools/generate-schema.html#modularizing)
@@ -110,7 +135,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v7.0.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v8.0.0...HEAD
+[v8.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v7.0.0...v8.0.0
 [v7.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.1...v7.0.0
 [v6.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.0...v6.0.1
 [v6.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v5.2.0...v6.0.0

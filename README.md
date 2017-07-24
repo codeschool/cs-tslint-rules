@@ -103,7 +103,6 @@ best practice enforcement:
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "strictNullChecks": true,
     "noEmitOnError": true
   }
 }
