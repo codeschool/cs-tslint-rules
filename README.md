@@ -96,7 +96,6 @@ best practice enforcement:
 {
   "compilerOptions": {
     "strict": true,
-    "noUnusedParameters": true,
     "noUnusedLocals": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
