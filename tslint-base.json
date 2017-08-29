@@ -114,7 +114,9 @@
       true,
       "mz",
       "rxjs",
-      "@angular/core/testing"
+      "@angular/core/testing",
+      "@angular/platform-browser",
+      "@angular/platform-browser-dynamic"
     ],
     "no-switch-case-fall-through": true,
     "no-unbound-method": [true, "ignore-static"],
