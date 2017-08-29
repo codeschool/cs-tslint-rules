@@ -65,6 +65,7 @@
       2
     ],
     "interface-over-type-literal": true,
+    "max-classes-per-file": false,
     "max-file-line-count": [
       true,
       600
@@ -80,7 +81,8 @@
         "order": "instance-sandwich"
       }
     ],
-    "no-any": true,
+    "no-any": false,
+    "no-bitwise": false,
     "no-constant-condition": true,
     "no-duplicate-case": true,
     "no-duplicate-imports": true,
@@ -108,6 +110,12 @@
     "no-object-literal-type-assertion": true,
     "no-sparse-arrays": true,
     "no-string-literal": true,
+    "no-submodule-imports": [
+      true,
+      "mz",
+      "rxjs",
+      "@angular/core/testing"
+    ],
     "no-switch-case-fall-through": true,
     "no-unbound-method": [true, "ignore-static"],
     "no-unexpected-multiline": true,
