@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased][unreleased]
 
+## [v9.0.0] - 2017-08-28
+### Added
+- Added new Codelyzer rules from latest versions to `tslint-ng2.json`
+
+### Changed
+- Removed `no-any` rule as it is nearly impossible to enforce without making exceptions
+- Removed `max-classes-per-file` rule
+- Changed `ban` rule to `[ true, [ "window", "isNaN", "describe.only", "it.only" ] ]`
+
+### Fixed
+- Fixed format for `ban` rule options
+
 ## [v8.0.0] - 2017-07-23
 ### Added
 - Added `align` rule as `[true, "arguments", "elements", "members", "parameters", "statements"]
@@ -16,6 +28,7 @@ All notable changes to this project will be documented in this file.
 - Added `no-string-literal` rule as `true`
 - Added `no-invalid-template-strings` rule as `true`
 - Added `ter-func-call-spacing` rule as `[true, "never"]`
+
 ### Changed
 - Upgraded `package.json` dependencies including bumping to TSLint v5.5.0
 - Removed `no-floating-promises` rule
@@ -135,7 +148,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Created initial versions of `tslint-base.json` and `tslint-ng2.json`.
 
-[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v8.0.0...HEAD
+[unreleased]: https://github.com/codeschool/cs-tslint-rules/compare/v9.0.0...HEAD
+[v9.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v8.0.0...v9.0.0
 [v8.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v7.0.0...v8.0.0
 [v7.0.0]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.1...v7.0.0
 [v6.0.1]: https://github.com/codeschool/cs-tslint-rules/compare/v6.0.0...v6.0.1

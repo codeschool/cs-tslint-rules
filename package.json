@@ -1,6 +1,6 @@
 {
   "name": "cs-tslint-rules",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "The TSLint rules for Code School's TypeScript conventions.",
   "main": "tslint-base.json",
   "keywords": [
@@ -15,10 +15,10 @@
   "author": "Nick Wronski <nick@codeschool.com> (https://github.com/nwronski)",
   "license": "ISC",
   "peerDependencies": {
-    "tslint": "^5.5.0"
+    "tslint": "^5.7.0"
   },
   "dependencies": {
     "tslint-eslint-rules": "^4.1.1",
-    "vrsource-tslint-rules": "^5.1.0"
+    "vrsource-tslint-rules": "^5.1.1"
   }
 }
