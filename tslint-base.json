@@ -17,7 +17,21 @@
     "await-promise": true,
     "ban": [
       true,
-      [ "window", "isNaN", "You can use Number.isNan() instead of isNaN()" ]
+      [
+        "window",
+        {
+          "name": "isNaN",
+          "message": "You can use Number.isNan() instead of isNaN()"
+        },
+        [
+          "describe",
+          "only"
+        ],
+        [
+          "it",
+          "only"
+        ]
+      ]
     ],
     "binary-expression-operand-order": true,
     "block-spacing": [
@@ -82,7 +96,7 @@
       }
     ],
     "no-any": false,
-    "no-bitwise": false,
+    "no-bitwise": true,
     "no-constant-condition": true,
     "no-duplicate-case": true,
     "no-duplicate-imports": true,
@@ -110,14 +124,7 @@
     "no-object-literal-type-assertion": true,
     "no-sparse-arrays": true,
     "no-string-literal": true,
-    "no-submodule-imports": [
-      true,
-      "mz",
-      "rxjs",
-      "@angular/core/testing",
-      "@angular/platform-browser",
-      "@angular/platform-browser-dynamic"
-    ],
+    "no-submodule-imports": false,
     "no-switch-case-fall-through": true,
     "no-unbound-method": [true, "ignore-static"],
     "no-unexpected-multiline": true,
